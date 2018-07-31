@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Heroku-- Je me presente
 
-Things you may want to cover:
+Petite première appli pour se mettre en jambes
 
-* Ruby version
 
-* System dependencies
+Voici le link vers [l'application sur Heroku][heroku] 
 
-* Configuration
 
-* Database creation
+**Colaborateurs**
+**From Lyon to the World: Mario, Carlos, Fabrice**
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[heroku]: https://je-me-presente-thp.herokuapp.com/
