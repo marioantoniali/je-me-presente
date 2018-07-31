@@ -25,12 +25,10 @@
       <li class="nav-item">
         <a class="nav-link" href="/about">About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about_toi">Toi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about_ton_groupe">Ton groupe</a>
-      </li>
+      <select name="Profil" onChange="location.href=''+this.options[this.selectedIndex].value+'.html';">
+           <option><a class="nav-link" href="/about/toi">TOI</a></option>
+           <option value="/about/ton/groupe">Ton groupe</option>
+      </select>
     </ul>
   </div>
 </nav>
