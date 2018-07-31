@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>toi toi toi</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Comme t es beau brow</h1>
+        <p>Bienvenue Johnny, si tu veux voir tes freres clique sur le bouton</p>
+        <form action="/about/ton_groupe" method="GET">
+            <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+            <input type="submit" value="la famille">
+        </form>
+    </body>
+</html>
